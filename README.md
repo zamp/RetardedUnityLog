@@ -36,7 +36,7 @@ public class MyLogWriter : ILogWriter
   // create a new MyLogWriter and call this method from somewhere in your code
   public void Register()
   {
-    RetardedUnityLog.Logger.LogWriter = this;
+    UnityLogWrapper.Logger.LogWriter = this;
   }
 
   private void Write(string message)
