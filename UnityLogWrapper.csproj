@@ -8,7 +8,7 @@
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>RetardedUnityLog</RootNamespace>
-        <AssemblyName>RetardedUnityLog</AssemblyName>
+        <AssemblyName>UnityLogWrapper</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>

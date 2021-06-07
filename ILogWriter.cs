@@ -1,4 +1,4 @@
-namespace RetardedUnityLog
+namespace UnityLogWrapper
 {
 	public interface ILogWriter
 	{

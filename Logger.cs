@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace RetardedUnityLog
+namespace UnityLogWrapper
 {
 	public enum LogLevel
 	{
