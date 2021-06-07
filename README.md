@@ -1,4 +1,4 @@
-# RetardedUnityLog
+# UnityLogWrapper
 
 Have you've ever tried to write a wrapper for unity log that allows file logging?
 Did double clicking your wrapper log calls open your code editor to the wrapper itself instead of where the wrapper call occured from?
@@ -12,7 +12,7 @@ This is a wrapper dll for unity log so that you can have your custom file writer
 * Reference the dll in your asmdef if you have one.
 
 ```cs
-using Log = RetardedUnityLog.Logger<MyClass>;
+using Log = UnityLogWrapper.Logger<MyClass>;
 
 public class MyClass
 {
