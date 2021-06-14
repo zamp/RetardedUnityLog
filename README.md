@@ -1,11 +1,12 @@
 # UnityLogWrapper
 
-Have you've ever tried to write a wrapper for unity log that allows file logging?
-Did double clicking your wrapper log calls open your code editor to the wrapper itself instead of where the wrapper call occured from?
+Have you've ever tried to write a wrapper for unity console?
+Did double clicking a console message open your code editor to the wrapper itself instead of where the wrapper call is?
 
 If you said yes to both then this little utility dll is exactly what you need!
 
-This is a wrapper dll for unity log so that you can have your custom file writer and/or other log parsing/whatever but still be able to double click console logs to get to where the log is called from instead of going to the wrapper class where the Debug.Log call is in.
+This is a wrapper dll for unity console so that you can double click console logs to get to where the log is called from instead of going to the wrapper class where the Debug.Log call is in.
+Also has callbacks from log to allow custom file loging etc.
 
 ## How to use: 
 * Download as zip and grab the dll from bin. Drop that in your unity project /Assets/Plugins/
@@ -30,7 +31,7 @@ public class MyClass
   }
 }
 
-// This is optional, but probably what you're here for
+// This is optional
 public class MyLogWriter : ILogWriter
 {
   // create a new MyLogWriter and call this method from somewhere in your code
